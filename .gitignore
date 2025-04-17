@@ -43,4 +43,9 @@ chromedriver.exe
 
 # Sistema
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Arquivos específicos do projeto
+DesbloqueiaIP1.0.py
+DesbloqueadorIP.exe
+DesbloqueadorIP.spec 

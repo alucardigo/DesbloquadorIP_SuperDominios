@@ -20,7 +20,7 @@ Um aplicativo Python para desbloquear IPs automaticamente através do painel de 
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/desbloqueador-ip.git
+git clone https://github.com/alucardigo/DesbloquadorIP_SuperDominios.git
 cd desbloqueador-ip
 ```
 
