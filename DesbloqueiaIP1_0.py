@@ -146,8 +146,8 @@ class DesbloqueadorIP:
             chrome_options.add_argument("--disable-blink-features=AutomationControlled")
             
             # Credenciais
-            username = os.getenv("SUPERDOMINIOS_USERNAME", "gleisontostes@gmail.com")
-            password = os.getenv("SUPERDOMINIOS_PASSWORD", "EngField#")
+            username = os.getenv("SUPERDOMINIOS_USERNAME", "seu-email@exemplo.com")
+            password = os.getenv("SUPERDOMINIOS_PASSWORD", "sua-senha")
             
             # Obter IP público
             public_ip = self.get_public_ip()
