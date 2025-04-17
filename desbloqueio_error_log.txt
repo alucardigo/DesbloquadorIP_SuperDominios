@@ -1,0 +1,6 @@
+Erro: Falha no login: credenciais incorretas
+
+Traceback (most recent call last):
+  File "C:\Users\USUARIO\Documents\PROG\DesbloqueiaIP1_0.py", line 174, in iniciar_desbloqueio
+    raise Exception("Falha no login: credenciais incorretas")
+Exception: Falha no login: credenciais incorretas

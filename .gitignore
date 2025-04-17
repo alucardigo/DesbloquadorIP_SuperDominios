@@ -26,6 +26,8 @@ wheels/
 env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
 # IDE
 .idea/
@@ -35,10 +37,13 @@ ENV/
 
 # Logs
 *.log
-desbloqueio_error_log.txt
+logs/
+log/
 
 # Executáveis
 *.exe
+*.msi
+*.dll
 chromedriver.exe
 
 # Sistema

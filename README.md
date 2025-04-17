@@ -1,8 +1,8 @@
 # Desbloqueador de IP
 
-Um aplicativo Python para desbloquear IPs automaticamente através do painel de controle da Super Domínios.
+Aplicação Python para desbloqueio automático de IPs através do painel de controle Super Domínios.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
 - Interface gráfica amigável
 - Desbloqueio automático de IP
@@ -10,17 +10,17 @@ Um aplicativo Python para desbloquear IPs automaticamente através do painel de 
 - Logs detalhados do processo
 - Execução em segundo plano
 
-## Requisitos
+## 📋 Pré-requisitos
 
 - Python 3.8 ou superior
 - Google Chrome instalado
 - ChromeDriver compatível com sua versão do Chrome
 
-## Instalação
+## 🔧 Instalação
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/alucardigo/DesbloquadorIP_SuperDominios.git
+git clone https://github.com/seu-usuario/desbloqueador-ip.git
 cd desbloqueador-ip
 ```
 
@@ -30,42 +30,41 @@ pip install -r requirements.txt
 ```
 
 3. Baixe o ChromeDriver:
-- Verifique sua versão do Chrome
-- Baixe o ChromeDriver compatível em: https://chromedriver.chromium.org/downloads
-- Coloque o arquivo `chromedriver.exe` na pasta do projeto
+- Acesse https://chromedriver.chromium.org/downloads
+- Baixe a versão compatível com seu Chrome
+- Coloque o arquivo `chromedriver.exe` na raiz do projeto
 
-## Configuração
+4. Configure suas credenciais:
+- Crie um arquivo `.env` baseado no `.env.example`
+- Preencha suas credenciais do Super Domínios
 
-1. Abra o arquivo `DesbloqueiaIP1.0.py`
-2. Substitua as credenciais de login:
-```python
-username = "seu-email@exemplo.com"
-password = "sua-senha"
-```
+## 🛠️ Uso
 
-## Uso
-
-Execute o programa:
+1. Execute o programa:
 ```bash
 python DesbloqueiaIP1.0.py
 ```
 
-Ou use o executável:
+2. Clique no botão "Iniciar Desbloqueio"
+
+3. Aguarde o processo ser concluído
+
+## 📦 Criação do Executável
+
+Para criar um executável do programa:
+
 ```bash
-DesbloqueadorIP.exe
+pyinstaller --noconfirm --onefile --windowed --name="DesbloqueadorIP" --distpath="." DesbloqueiaIP1.0.py
 ```
 
-## Compilação
+## 📝 Licença
 
-Para criar o executável:
-```bash
-pyinstaller --onefile --windowed --name="DesbloqueadorIP" DesbloqueiaIP1.0.py
-```
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Licença
+## 🤝 Contribuindo
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## Contribuição
-
-Contribuições são bem-vindas! Por favor, leia as [diretrizes de contribuição](CONTRIBUTING.md) para detalhes sobre o processo de submissão de pull requests. 
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request 
