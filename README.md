@@ -20,8 +20,8 @@ Aplicação Python para desbloqueio automático de IPs através do painel de con
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/desbloqueador-ip.git
-cd desbloqueador-ip
+git clone https://github.com/alucardigo/DesbloquadorIP_SuperDominios.git
+cd DesbloquadorIP_SuperDominios
 ```
 
 2. Instale as dependências:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 1. Execute o programa:
 ```bash
-python DesbloqueiaIP1.0.py
+python DesbloqueiaIP1_0.py
 ```
 
 2. Clique no botão "Iniciar Desbloqueio"
